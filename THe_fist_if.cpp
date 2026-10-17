@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main(){
+	
+	int h1,m1;
+	
+	int h2,m2;
+	
+	
+	scanf("%d %d %d %d",&h1,&m1,&h2,&m2);
+	
+	
+	int ih=h2-h1;
+	
+	int im=m2-m1;
+	
+	if(im<0){
+	im=im+60;
+	
+	ih--;
+	
+	printf ("Ê±¼ä²îÎª%dh %dmin",ih,im);
+		
+	return 0;
+	}
+}
